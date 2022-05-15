@@ -1,0 +1,97 @@
+{
+	"info": {
+		"_postman_id": "daa31bb3-dc23-41bc-9041-9b12ec413441",
+		"name": "ShoppingCart - product APIs",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get product by name",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8083/v1/products/productsByName/Jeans",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8083",
+					"path": [
+						"v1",
+						"products",
+						"productsByName",
+						"Jeans"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get product by Id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8083/v1/products/productsById/10",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8083",
+					"path": [
+						"v1",
+						"products",
+						"productsById",
+						"10"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get product by catagory",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8083/v1/products/productsByCatagory/Apparal",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8083",
+					"path": [
+						"v1",
+						"products",
+						"productsByCatagory",
+						"Apparal"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get products",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8083/v1/products/productsByName/Think & Grow Rich",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8083",
+					"path": [
+						"v1",
+						"products",
+						"productsByName",
+						"Think & Grow Rich"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
